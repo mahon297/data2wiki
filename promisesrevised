@@ -1,0 +1,22 @@
+let requestWiki = function() {
+  return new Promise(function(resolve, reject) {
+  resolve('Requested Wiki');
+
+  });
+};
+
+
+let addWikiName = function(p) {
+  return new Promise(function(resolve, reject){
+    resolve(message + 'Wiki Name Added');
+  });
+};
+
+Promise.all([
+  ....?  
+]).then((values=> {
+  let requestWiki = values[0]
+  let addWikiName = values [1]
+  
+  console.log(URL, WikiName)
+}))
